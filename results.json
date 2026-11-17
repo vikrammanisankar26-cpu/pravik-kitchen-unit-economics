@@ -1,0 +1,97 @@
+{
+  "unit_economics": {
+    "Chicken biryani": {
+      "price": 15,
+      "variable_cost": 5.499,
+      "cm": 9.501,
+      "cm_ratio": 0.633,
+      "units_per_weekend": 18
+    },
+    "Mutton biryani": {
+      "price": 20,
+      "variable_cost": 8.499,
+      "cm": 11.501,
+      "cm_ratio": 0.575,
+      "units_per_weekend": 8
+    },
+    "Veg biryani": {
+      "price": 12,
+      "variable_cost": 3.999,
+      "cm": 8.001,
+      "cm_ratio": 0.667,
+      "units_per_weekend": 8
+    },
+    "Chicken gravy": {
+      "price": 16,
+      "variable_cost": 5.999,
+      "cm": 10.001,
+      "cm_ratio": 0.625,
+      "units_per_weekend": 15
+    },
+    "Snacks (dozen)": {
+      "price": 8,
+      "variable_cost": 2.799,
+      "cm": 5.201,
+      "cm_ratio": 0.65,
+      "units_per_weekend": 15
+    },
+    "Sambar & soups": {
+      "price": 8,
+      "variable_cost": 2.499,
+      "cm": 5.501,
+      "cm_ratio": 0.688,
+      "units_per_weekend": 12
+    },
+    "Party tray": {
+      "price": 90,
+      "variable_cost": 34.299,
+      "cm": 55.701,
+      "cm_ratio": 0.619,
+      "units_per_weekend": 0.5
+    },
+    "Weighted average": {
+      "price": 13.425,
+      "variable_cost": 4.942,
+      "cm": 8.483,
+      "cm_ratio": 0.632,
+      "units_per_weekend": 76.5
+    }
+  },
+  "high_low": {
+    "variable_per_unit": 0.2986,
+    "fixed_per_month": 200.2217,
+    "high": "Nov",
+    "low": "Jul"
+  },
+  "break_even": {
+    "before_her_time": {
+      "fixed": 2100,
+      "breakeven_units": 247.55,
+      "breakeven_per_weekend": 4.76,
+      "breakeven_sales": 3323.35,
+      "margin_of_safety": 0.94,
+      "operating_income": 31645.6
+    },
+    "including_her_time": {
+      "fixed": 12084.0,
+      "breakeven_units": 1424.49,
+      "breakeven_per_weekend": 27.39,
+      "breakeven_sales": 19123.5,
+      "margin_of_safety": 0.64,
+      "operating_income": 21661.6
+    },
+    "sales": 53404.0,
+    "units": 3978.0,
+    "profit_per_hour": 50.71
+  },
+  "plan_a": {
+    "npv": 4649.6,
+    "irr": 0.7875,
+    "payback_years": 1.3
+  },
+  "plan_a_20pct_fewer_orders_npv": 3173.2,
+  "plan_b": {
+    "npv": -5845.24
+  },
+  "helper_trigger_total_orders_per_weekend": 5.87
+}
